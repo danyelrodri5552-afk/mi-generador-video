@@ -31,6 +31,23 @@ export default function Home() {
         value={prompt}
         onChange={(e) => setPrompt(e.target.value)}
       />
+    <div style={{ marginTop: "20px" }}>
+  <button onClick={() => setPrompt("astronaut walking on the moon cinematic")} style={{margin:"5px"}}>
+    Astronaut
+  </button>
+
+  <button onClick={() => setPrompt("dog driving a car funny")} style={{margin:"5px"}}>
+    Dog driving car
+  </button>
+
+  <button onClick={() => setPrompt("giant pizza floating in space")} style={{margin:"5px"}}>
+    Space pizza
+  </button>
+
+  <button onClick={() => setPrompt("cyberpunk girl walking in tokyo neon lights")} style={{margin:"5px"}}>
+    Cyberpunk girl
+  </button>
+</div>
       <button
         style={{ padding: "10px 20px", marginLeft: "10px", fontSize: "16px", cursor: "pointer" }}
         onClick={generateVideo}
