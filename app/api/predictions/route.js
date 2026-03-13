@@ -9,3 +9,11 @@ export async function POST(request) {
   return Response.json(prediction, { status: 201 });
 }
 ```
+
+Luego clic en **"Commit changes"** → clic en **"Commit changes"** de nuevo.
+
+---
+
+## 🟢 SEGUNDO — Pega esto en tu navegador:
+```
+https://github.com/danyelrodri5552-afk/mi-generador-video/edit/main/app/page.js
